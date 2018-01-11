@@ -1,0 +1,24 @@
+@media (min-width:768px) {
+  .has-top-bg{
+    .navbar-custom{
+      background: transparent;
+      border-color: transparent;
+      .subscribe{
+        border-left: 1px solid #F8F8F8;
+      }
+    }
+  }
+  .navbar-custom{
+    .subscribe{
+      border-left: 1px solid #F8F8F8;
+    }
+  }
+}
+@media (max-width:768px) {
+  h1{
+    font-size: 2.8rem!important;
+  }
+  h2{
+    font-size: 2.2rem!important;
+  }
+}

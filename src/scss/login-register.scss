@@ -1,0 +1,57 @@
+/* login/register */
+.sign{
+  padding-top: 8%;
+  color: #fff;
+  max-width: 350px;
+  margin: 0 auto;
+  h1{
+    font-size: 50px;
+  }
+  .logo{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .form-control{
+    background: rgba(0,0,0,0);
+    border: 2px solid #fff;
+    padding: 12px 12px;
+    height: auto;
+    color: #FFF;
+    &::-webkit-input-placeholder{
+      color: #eee;
+    }
+    &::-moz-placeholder{
+      color: #eee;
+    }
+    &:-ms-input-placeholder{
+      color: #eee;
+    }
+  }
+  .form-submit{
+    padding: 10px 22px;
+    width: 100%;
+    font-size: 20px;
+  }
+  .form-group{
+    margin-bottom: 25px;
+  }
+  .change-link{
+    color: #fff;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    a{
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  }
+}
+.login{
+  background: $base;
+  background: linear-gradient(to top, #4CB8C4, $base);
+}
+.register{
+  background: $base;
+  background: linear-gradient(to bottom, #4CB8C4, $base);
+}

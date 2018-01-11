@@ -1,0 +1,16 @@
+$base:#1fa67a;
+$orange:#F0AD4E;
+$base-plus:darken($base,3%);
+$base-minus:lighten($base,3%);
+$bg:#f8f8f8;
+$border:#dbdbdb;
+$text:#333;
+$text-gray:#5D5D5D;
+$text-orange:#F0AD4E;
+$text-color-minus:#5D5D5D;
+
+@mixin ell {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
