@@ -67,7 +67,7 @@
         <div class="row text-center">
           <div class="col-sm-6 col-md-4 col-lg-3 book-cover" :class="{'hidden-md':$idx == 3}" v-for="(item,$idx) in recentBookList">
             <div class="book">
-              <a class="book-cover book-cover{{$idx+1}}" :href="'/book-detail/'+item._id" title="查看详情">
+              <a class="book-cover" :class="'book-cover'+($idx+1)" :href="'/book-detail/'+item._id" title="查看详情">
                 <div class="title-subtitle">
                   <div class="title" v-bind="item.title"></div>
                   <div class="subtitle" v-bind="item.createAt">学习让成长加速</div>
