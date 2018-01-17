@@ -1,9 +1,37 @@
 @import "var";
-@import "_bootstrap";
+@import "materialize";
 @import "common";
-@import "static";
-@import "front";
-@import "login-register";
-@import "pages";
-@import "loading-bar";
-@import "media";
+body{
+  font-family: "Microsoft YaHei UI";
+}
+.section-space {
+  width: 100%;
+  height: 20px;
+}
+.nav-transparent {
+  background: transparent;
+  border-bottom: none;
+  box-shadow: none;
+  width:100%;
+  z-index: 999;
+  ul a{
+    color: #fff;
+    &:hover{
+      background-color:transparent;
+      text-shadow: 3px 3px 15px #333;
+    }
+  }
+  .brand-logo{
+    color: #fff;
+  }
+}
+
+.front{
+  margin-top: -$navbar-height;
+  .section-top {
+    height: 43vh;
+    width: 100%;
+    padding-top: $navbar-height;
+    background: url("/static/images/top-bg.jpg") top center no-repeat;
+  }
+}

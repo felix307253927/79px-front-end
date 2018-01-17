@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <section class="wrap top-show color-front">
+  <div class="front">
+    <section class="section-top">
       <div class="container text-center">
         <h1>分享知识 传递价值</h1>
         <p>{79px},让成长加速！</p>
@@ -62,7 +62,9 @@
       </div>
     </section>
     <section class="section-front front-recent">
-      <h2 class="text-center">最近更新</h2>
+      <div class="container">
+        <h2 class="text-center">最近更新</h2>
+      </div>
       <div class="container book-list">
         <div class="row text-center">
           <div class="col-sm-6 col-md-4 col-lg-3 book-cover" :class="{'hidden-md':$idx == 3}" v-for="(item,$idx) in recentBookList">
@@ -139,12 +141,12 @@
       }
     },
     created(){
-      this.$http.get('/api/book/list/recent').then(res => {
+      /*this.$http.get('/api/book/list/recent').then(res => {
         this.recentBookList = res.data
         console.log(res)
       }, err => {
         // error callback
-      })
+      })*/
     }
   }
 </script>
