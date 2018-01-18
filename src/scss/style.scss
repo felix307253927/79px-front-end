@@ -93,15 +93,12 @@ body{
       a {
         padding: 1px 6px;
         background: #333333;
-        text-decoration: none;
         margin-bottom: 10px;
         display: block;
         border-radius: 2px;
         &:hover {
-          padding: 1px 6px;
           background: #fff;
           color: #333333;
-          text-decoration: none;
         }
         &:before{
           content:''
