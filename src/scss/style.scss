@@ -32,6 +32,112 @@ body{
     height: 43vh;
     width: 100%;
     padding-top: $navbar-height;
-    background: url("/static/images/top-bg.jpg") top center no-repeat;
+    background: url("/static/images/top-bg.jpg") 50% center no-repeat;
+  }
+  .front-79px{
+    h2{
+      margin-bottom:32px;
+    }
+    h4{
+      margin-top:0;
+    }
+    .box-icon{
+      width:100%;
+      height: 100%;
+      font-size: 1.5rem;
+      padding: 15px 10px;
+      background: #eee;
+      color: $text-gray;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .media{
+      margin-bottom:25px;
+    }
+  }
+}
+
+.footer {
+  background-color: #333;
+  color: #999;
+  .row{
+    margin-bottom: 0;
+  }
+  a {
+    color: #999;
+    &:hover, &:focus {
+      color: #999;
+    }
+  }
+
+  .footer-content {
+    padding: 3rem 0 2rem;
+    h2 {
+      font-size: 20px;
+      font-weight: 200;
+      line-height: 1.2rem;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+      span{
+        font-weight: 600;
+        margin-right: 0.3rem;
+      }
+    }
+    .info-desc {
+      line-height: 2.3rem;
+    }
+    .hot-tag {
+      li{
+        display: inline-block;
+      }
+      a {
+        padding: 1px 6px;
+        background: #333333;
+        text-decoration: none;
+        margin-bottom: 10px;
+        display: block;
+        border-radius: 2px;
+        &:hover {
+          padding: 1px 6px;
+          background: #fff;
+          color: #333333;
+          text-decoration: none;
+        }
+        &:before{
+          content:''
+        }
+      }
+    }
+    .book-hot li {
+      margin: 3px 0;
+      padding: 3px 0;
+      &:hover {
+        background: #333333;
+      }
+      a {
+        display: block;
+        padding-left: 5px;
+        border-left: 3px solid #333333;
+        &:hover, &:focus {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .footer-info {
+    font-size: 12px;
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid #353535;
+    p {
+      min-height: 45px;
+      line-height: 45px;
+      margin: 0;
+      display: inline-block;
+    }
+    span {
+      padding: 8px;
+    }
   }
 }

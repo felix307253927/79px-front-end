@@ -2,7 +2,7 @@
   <nav :class="navStyle">
     <div class="nav-wrapper">
       <div class="container">
-        <router-link to="/" class="brand-logo">79px</router-link>
+        <router-link to="/" class="brand-logo">{79px}</router-link>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="sass.html">Sass</a></li>
           <li><a href="badges.html">Components</a></li>
