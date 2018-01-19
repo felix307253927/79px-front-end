@@ -2,7 +2,7 @@
   "name": "79px2.0",
   "version": "1.0.0",
   "description": "79px",
-  "author": "eternityspring@163.com <1526qaws>",
+  "author": "eternityspring@163.com",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --config build/webpack.dev.conf.js",
