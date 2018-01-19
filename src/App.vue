@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" v-loading>
     <router-view name="Header"></router-view>
     <router-view name="Content"></router-view>
     <router-view></router-view>
@@ -9,6 +9,14 @@
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  directives:{
+    loading:{
+      inserted(el){
+        document.querySelector('.loading').style.display = 'none'
+      }
+    }
+  }
 }
 </script>
+

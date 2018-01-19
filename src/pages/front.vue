@@ -70,24 +70,20 @@
       </div>
     </section>
     <section class="section-front front-recent">
-      <div class="container center-align">
+      <div class="container center-align book-list">
         <h2>最近更新</h2>
-      </div>
-      <div class="container book-list">
-        <div class="row center-align">
-          <div class="col-sm-6 col-md-4 col-lg-3 book-cover" :class="{'hidden-md':$idx == 3}" v-for="(item,$idx) in recentBookList">
+        <div class="row">
+          <div class="col s12 m6 l4 xl3 book-cover" v-for="item in [1,2,3,4]">
             <div class="book">
-              <a class="book-cover" :class="'book-cover'+($idx+1)" :href="'/book-detail/'+item._id" title="查看详情">
+              <a class="book-cover" :class="'book-cover'+item" href="" title="查看详情">
                 <div class="title-subtitle">
-                  <div class="title" v-bind="item.title"></div>
-                  <div class="subtitle" v-bind="item.createAt">学习让成长加速</div>
+                  <div class="title">网站建设指南</div>
+                  <div class="subtitle">2016-07-20</div>
                 </div>
               </a>
               <div class="author-read">
-                <div class="pull-left">By
-                  <span v-bind="item.author || item.createBy[0].name"></span>
-                </div>
-                <a class="clear-a pull-right" :href="'/book-page/'+item._id" title="立即阅读">
+                <div class="left">By源泉</div>
+                <a class="clear-a right" href="" title="立即阅读">
                   <i class="fa fa-eye"></i>
                 </a>
               </div>
@@ -129,9 +125,6 @@
     <section class="section-front front-do-it">
       <div class="container center-align">
         <h2>不止于想</h2>
-        <div class="clearfix hidden-sm">
-          <br>
-        </div>
         <p>从一个想法到想法变成现实，总有许多的不可能。新鲜有趣的技术总能克服些许不可能！</p>
         <p>从现在起做点什么，为曾经的想法迈出第一步。</p>
         <a href="/explorer" class="btn btn-warning btn-lg">立即开始</a>

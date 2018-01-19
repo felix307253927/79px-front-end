@@ -8,6 +8,9 @@ body{
   width: 100%;
   height: 20px;
 }
+.nav-left{
+  margin-left: 7rem;
+}
 .nav-transparent {
   background: transparent;
   border-bottom: none;
@@ -34,6 +37,9 @@ body{
     padding-top: $navbar-height;
     background: url("/static/images/top-bg.jpg") 50% center no-repeat;
   }
+  .section-front{
+    padding: 2rem 0;
+  }
   .front-79px{
     h2{
       margin-bottom:32px;
@@ -54,6 +60,12 @@ body{
     .media{
       margin-bottom:25px;
     }
+  }
+  .front-recent{
+    background: url("/static/images/dust_scratches.png") top center repeat;
+  }
+  .front-do-it{
+    background: #fafafa url("/static/images/blizzard.png") top center repeat;
   }
 }
 

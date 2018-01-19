@@ -17,5 +17,32 @@ export default new Router({
         Footer: Footer,
       }
     },
+    {
+      path: '/recommend',
+      name: 'recommend',
+      components: {
+        Content:(resolve)=>require(['@/pages/recommend'], resolve),
+        Header: Header,
+        Footer: Footer,
+      }
+    },
+    {
+      path: '/explorer',
+      name: 'explorer',
+      components: {
+        Content:(resolve)=>require(['@/pages/explorer'], resolve),
+        Header: Header,
+        Footer: Footer,
+      }
+    },
+    {
+      path: '/blog',
+      name: 'blog',
+      components: {
+        Content:(resolve)=>require(['@/pages/blog'], resolve),
+        Header: Header,
+        Footer: Footer,
+      }
+    },
   ]
 })
