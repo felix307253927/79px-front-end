@@ -36,7 +36,7 @@
               </div>
               <div class="col s10">
                 <h4>单页面应用</h4>
-                <p>网站采用restful架构。前端用Angular构建成单页面应用。让网站浏览起来就像本地应用一样流畅。</p>
+                <p>网站采用 restful 架构。前端用 vue 构建成单页面应用。让网站浏览起来就像本地应用一样流畅。</p>
               </div>
             </div>
           </div>
@@ -75,12 +75,13 @@
         <div class="row">
           <div class="col s12 m6 l4 xl3 book-cover" v-for="item in [1,2,3,4]">
             <div class="book">
-              <a class="book-cover" :class="'book-cover'+item" href="" title="查看详情">
+              <router-link class="book-cover" :class="'book-cover'+item"
+                           :to="'/bookDetail/'+item" title="查看详情">
                 <div class="title-subtitle">
                   <div class="title">网站建设指南</div>
                   <div class="subtitle">2016-07-20</div>
                 </div>
-              </a>
+              </router-link>
               <div class="author-read">
                 <div class="left">By源泉</div>
                 <a class="clear-a right" href="" title="立即阅读">

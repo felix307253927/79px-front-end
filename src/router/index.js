@@ -27,6 +27,15 @@ export default new Router({
       }
     },
     {
+      path: '/bookDetail/:id',
+      name: 'bookDetail',
+      components: {
+        Content:(resolve)=>require(['@/pages/bookDetail'], resolve),
+        Header: Header,
+        Footer: Footer,
+      }
+    },
+    {
       path: '/explorer',
       name: 'explorer',
       components: {

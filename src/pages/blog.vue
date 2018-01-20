@@ -1,5 +1,5 @@
 <template>
-  <div class="blog">
+  <div class="main-container blog">
     <div class="container">
       博客
     </div>
@@ -14,7 +14,7 @@
       }
     },
     created(){
-
+      this.$store.commit('setNavStyle','nav-normal')
     }
   }
 </script>

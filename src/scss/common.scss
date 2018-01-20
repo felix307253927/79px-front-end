@@ -133,3 +133,7 @@
   @include bookCover(11);
   @include bookCover(12);
 }
+
+.main-container{
+  min-height: calc(100vh - 487px);
+}
