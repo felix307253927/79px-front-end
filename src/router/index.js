@@ -7,7 +7,7 @@ Vue.use(Router)
 
 export default new Router({
   mode: 'history',
-  base: '/dist/',
+  base: '/79px-front-end/dist/',
   routes: [
     {
       path: '/',
