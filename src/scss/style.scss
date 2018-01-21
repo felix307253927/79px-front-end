@@ -35,7 +35,7 @@ body{
     height: 43vh;
     width: 100%;
     padding-top: $navbar-height;
-    background: url("/static/images/top-bg.jpg") 50% center no-repeat;
+    background: url("../../static/images/top-bg.jpg") 50% center no-repeat;
     text-align: center;
     color: #fff;
     .container{
@@ -67,10 +67,10 @@ body{
     }
   }
   .front-recent{
-    background: url("/static/images/dust_scratches.png") top center repeat;
+    background: url("../../static/images/dust_scratches.png") top center repeat;
   }
   .front-do-it{
-    background: #fafafa url("/static/images/blizzard.png") top center repeat;
+    background: #fafafa url("../../static/images/blizzard.png") top center repeat;
   }
 }
 
@@ -159,7 +159,7 @@ body{
   .book-title{
     padding: 5rem 0;
     position: relative;
-    background: #fafafa url("/static/images/handmade-paper.png") top center repeat;
+    background: #fafafa url("../../static/images/handmade-paper.png") top center repeat;
   }
   .book-item-list{
     line-height: 3rem;

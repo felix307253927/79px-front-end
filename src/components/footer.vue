@@ -13,7 +13,7 @@
                   <a href="http://jq.qq.com/?_wv=1027&amp;k=J6KYRU" target="_blank">362397329</a></p>
               </div>
               <div class="col s12 m4 center-align">
-                <img src="/static/images/79px.png" width="100px" height="100px" alt="79px.com"/>
+                <img src="../../static/images/79px.png" width="100px" height="100px" alt="79px.com"/>
                 <p>手机访问</p>
               </div>
             </div>
