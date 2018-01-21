@@ -20,9 +20,9 @@ npm run build --report
 
 GitHub 非根目录部署  修改
 
-    config/index.js `assetsPublicPath`
+    config/index.js ```assetsPublicPath``
 
-    router/index.js `base`
+    router/index.js ``base``
 
 
 预知后事如何，请持续关注：https://79px.com
