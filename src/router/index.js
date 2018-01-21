@@ -36,6 +36,13 @@ export default new Router({
       }
     },
     {
+      path: '/bookPage/:detailId/:pageId',
+      name: 'bookPage',
+      components: {
+        Content:(resolve)=>require(['@/pages/bookPage'], resolve),
+      }
+    },
+    {
       path: '/explorer',
       name: 'explorer',
       components: {

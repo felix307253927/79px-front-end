@@ -11,7 +11,7 @@
         <div class="col s12 m6">
           <ul class="book-item-list">
             <li v-for="item in [1,2,3,4,5]">
-              <router-link to="">1. 正则表达式简介</router-link>
+              <router-link :to="'/bookPage/'+item+'/'+item">1. 正则表达式简介</router-link>
             </li>
           </ul>
         </div>

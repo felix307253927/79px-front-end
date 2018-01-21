@@ -187,3 +187,46 @@ body{
     }
   }
 }
+
+.book-page{
+  overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+  .book-page-container{
+    display: flex;
+  }
+  .section-summary-bg{
+    background: #f8f8f8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -2;
+  }
+  .summary{
+    width: 20%;
+    min-width: 220px;
+    a{
+      padding: 10px 15px;
+      color: #333;
+      display: block;
+      &:hover{
+        color: #000;
+      }
+    }
+  }
+  .content{
+    width: 80%;
+    background: #fff;
+    min-height: 100vh;
+    .content-container{
+      max-width: 750px;
+      line-height: 1.8rem;
+      margin: 0 auto;
+    }
+    section{
+      padding: 1.5rem;
+    }
+  }
+}
