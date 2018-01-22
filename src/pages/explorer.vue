@@ -1,6 +1,7 @@
 <template>
   <div class="explorer">
     <div class="container">
+      <br>
       <div class="row">
         <div class="col s12 m6 l4 xl3 book-cover" v-for="item in [1,2,3,4,5,6,7]">
           <div class="book">
@@ -33,6 +34,9 @@
       }
     },
     created(){
+      this.$store.commit('setNavStyle','nav-normal')
+    },
+    mounted(){
 
     }
   }

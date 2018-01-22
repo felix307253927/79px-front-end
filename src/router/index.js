@@ -28,7 +28,7 @@ export default new Router({
       }
     },
     {
-      path: '/bookDetail/:id',
+      path: '/bookDetail/:bookId',
       name: 'bookDetail',
       components: {
         Content:(resolve)=>require(['@/pages/bookDetail'], resolve),
@@ -54,6 +54,15 @@ export default new Router({
     },
     {
       path: '/blog',
+      name: 'blog',
+      components: {
+        Content:(resolve)=>require(['@/pages/blogList'], resolve),
+        Header: Header,
+        Footer: Footer,
+      }
+    },
+    {
+      path: '/blog/:blogId',
       name: 'blog',
       components: {
         Content:(resolve)=>require(['@/pages/blog'], resolve),

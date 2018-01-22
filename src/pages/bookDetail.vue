@@ -55,7 +55,7 @@
       return {}
     },
     created() {
-      this.$store.commit('setNavStyle', 'nav-normal')
+      this.$store.commit('setNavStyle','nav-normal')
     }
   }
 </script>
