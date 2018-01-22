@@ -70,5 +70,19 @@ export default new Router({
         Footer: Footer,
       }
     },
+    {
+      path: '/login',
+      name: 'login',
+      components: {
+        Content:(resolve)=>require(['@/pages/login'], resolve),
+      }
+    },
+    {
+      path: '/register',
+      name: 'register',
+      components: {
+        Content:(resolve)=>require(['@/pages/register'], resolve),
+      }
+    },
   ]
 })

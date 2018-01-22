@@ -310,3 +310,54 @@ body{
     line-height: 1.8rem;
   }
 }
+.login-register{
+  height: 100vh;
+  background: $base;
+  .useful-link{
+    color: #fff;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    a{
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  }
+  .login-register-box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width:320px;
+    margin: 0 auto;
+    color: #fff;
+  }
+  .title{
+    text-align: center;
+    margin-top: -4rem;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+  }
+  .input-field > label{
+    color: #eee;
+  }
+  input{
+    border-bottom-color: #fff!important;
+    color: #fff;
+    &:focus{
+      border-bottom-color: #fff!important;
+      box-shadow: 0 1px 0 0 #fff!important;
+      & + label{
+        color: #fff!important;
+      }
+    }
+  }
+}
+.login{
+  background: linear-gradient(to top, #4CB8C4, $base);
+}
+.register{
+  background: linear-gradient(to bottom, #4CB8C4, $base);
+}

@@ -10,9 +10,15 @@
           <li><router-link to="/blog">博客</router-link></li>
         </ul>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="">登录</a></li>
-          <li><a href="">注册</a></li>
-          <li><a href="">注销</a></li>
+          <li>
+            <router-link to="/login">登录</router-link>
+          </li>
+          <li>
+            <router-link to="/register">注册</router-link>
+          </li>
+          <li>
+            <router-link to="/logout">注销</router-link>
+          </li>
         </ul>
       </div>
     </div>
