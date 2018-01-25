@@ -29,7 +29,13 @@
       return {}
     },
     created() {
+      this.$http.post('/api/register',{
 
+      }).then((res)=>{
+        console.log(res)
+      }).catch((err)=>{
+        console.log(err)
+      });
     },
     directives:{
       focusActive:{
